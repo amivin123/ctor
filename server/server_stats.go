@@ -3,10 +3,10 @@ package server
 import (
 	"runtime"
 
+	velox "github.com/jpillora/velox/go"
 	"github.com/shirou/gopsutil/cpu"
 	"github.com/shirou/gopsutil/disk"
 	"github.com/shirou/gopsutil/mem"
-	"github.com/amivin123/ctor/modul/velox/go"
 )
 
 type stats struct {

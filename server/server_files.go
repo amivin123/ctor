@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/amivin123/ctor/modul/archive"
+	"github.com/jpillora/archive"
 )
 
 const fileNumberLimit = 1000

@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/amivin123/ctor/modul/backoff"
+	"github.com/jpillora/backoff"
 )
 
 const searchConfigURL = "scraper.json"

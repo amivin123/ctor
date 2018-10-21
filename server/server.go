@@ -15,14 +15,14 @@ import (
 	"sync"
 	"time"
 
+	"github.com/NYTimes/gziphandler"
 	"github.com/amivin123/ctor/engine"
-	"github.com/amivin123/ctor/modul/cookieauth"
-	"github.com/amivin123/ctor/modul/gziphandler"
-	"github.com/amivin123/ctor/modul/open-golang"
-	"github.com/amivin123/ctor/modul/requestlog"
-	"github.com/amivin123/ctor/modul/scraper"
-	"github.com/amivin123/ctor/modul/velox"
 	"github.com/amivin123/ctor/static"
+	"github.com/jpillora/cookieauth"
+	"github.com/jpillora/requestlog"
+	"github.com/jpillora/scraper/scraper"
+	"github.com/jpillora/velox"
+	"github.com/skratchdot/open-golang/open"
 )
 
 //Server is the "State" portion of the diagram
