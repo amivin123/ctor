@@ -1,0 +1,64 @@
+[metadata.heroku]
+  root-package = "ctor"
+  go-version = "1.11"
+  install = [ "./..." ]
+
+[[constraint]]
+  name = "github.com/NYTimes/gziphandler"
+  version = "1.0.1"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/amivin123/ctor"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/amivin123/dhtor"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/amivin123/tortortor"
+
+[[constraint]]
+  name = "github.com/elazarl/go-bindata-assetfs"
+  version = "1.0.0"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/jpillora/archive"
+
+[[constraint]]
+  name = "github.com/jpillora/backoff"
+  version = "1.0.0"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/jpillora/cookieauth"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/jpillora/opts"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/jpillora/requestlog"
+
+[[constraint]]
+  name = "github.com/jpillora/scraper"
+  version = "0.1.4"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/jpillora/velox"
+
+[[constraint]]
+  name = "github.com/shirou/gopsutil"
+  version = "2.18.7"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/skratchdot/open-golang"
+
+[prune]
+  go-tests = true
+  unused-packages = true
