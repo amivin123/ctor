@@ -11,7 +11,7 @@ var VERSION = "1.0"
 
 func main() {
 	s := server.Server{
-		Title:      "Tores",
+		Title:      "C-Tor",
 		Port:       3000,
 		ConfigPath: "config.json",
 	}

@@ -1,0 +1,15 @@
+{
+	"name": "ctor",
+	"website": "https://github.com/amivin123/ctor",
+	"repository": "https://github.com/amivin123/ctor",
+	"env": {
+		"TITLE": {
+			"description": "Optionally set the title of this instance (defaults to 'C-Tor')",
+			"required": false
+		},
+		"AUTH": {
+			"description": "Optional HTTP authentication in the form user:password",
+			"required": false
+		}
+	}
+}
